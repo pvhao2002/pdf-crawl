@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Token / secrets (không commit token)
+bearer-token.txt
+.bearer-token
+.env
+.env.local
+*.local
+
+# Logs & cache
+npm-debug.log*
+.npm
+.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

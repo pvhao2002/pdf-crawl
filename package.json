@@ -1,0 +1,14 @@
+{
+  "name": "download-pdf-quiz",
+  "version": "1.0.0",
+  "description": "Fetch quiz series, extract article from each link, export PDF",
+  "type": "module",
+  "scripts": {
+    "start": "node fetch-series-and-export-pdf.js",
+    "pdf": "node fetch-series-and-export-pdf.js",
+    "download-giaoanxanh": "node download-giaoanxanh-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
